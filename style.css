@@ -1,0 +1,48 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    border:solid black;
+    height:80px;
+}
+.btnContainer{
+    border:solid green;
+    display:flex;
+    justify-content: space-evenly;
+    height:30px;
+    padding:10px;
+}
+.btn{
+    border:solid black .8px;
+    border-radius:5px;
+    padding-top:5px;
+    width:125px;
+    text-align:center;
+}
+.btn:hover{
+    background-color: green;
+    color:white;
+}
+.profilePic{
+    border:solid orange;
+}
+.mainPic{
+    height:450px;
+}
+.mainContainer{
+    border:solid red;
+    display:flex;
+}
+.txtbox{
+    border:solid blue;
+    width:40%;
+}
+.contentContainer{
+    border:solid yellow;
+    height:350px;
+    display:flex;
+}
+.left,.right{
+    border:solid green;
+    width:50%;
+    height:100%;
+}
